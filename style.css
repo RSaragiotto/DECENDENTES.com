@@ -1,0 +1,65 @@
+body {
+   color: limegreen;
+   background: purple;
+   margin: 0px
+   font-family "Chakra Petch", sans-serif;
+   margin-bottom: 100px;
+   font-family: "Bodoni Moda SC", serif;
+    margin-bottom: 100px;
+}
+
+
+
+header{
+   border-bottom: solid 3px rgb(0, 255, 0);
+   padding: 20px;
+   font-size: 28px;
+}
+
+.chamada {
+   background: rgb(57, 3, 61);
+   padding-bottom: 80px;
+   padding-top: 80px;
+   display: flex;
+   justify-content: center;
+}
+
+.chamada-texto  {
+   margin-right: 5%;
+}
+
+h1 {
+ font-size:35px;
+}
+
+p{
+   font-size: 20px;
+} 
+
+.categoria-videos{
+ display: flex;
+ overflow-x: auto;
+ gap:10px;
+}
+
+.categoria {
+   padding-left: 20px;
+   padding-right: 20px;
+   margin-top: 50px;
+}
+
+
+
+.categoria-videos img {
+ opacity: 0.5;
+ height: 150px;
+}
+
+.categoria-videos img:hover {
+ border: 1px solid limegreen;
+ opacity: 1.0;
+}
+
+.categoria h2{
+   color: rgb(0, 255, 0);
+}
